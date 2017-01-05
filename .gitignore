@@ -1,0 +1,32 @@
+# basic ignores :
+
+*.txt
+.DS_Store
+*.zip
+*.gz
+log/*.log
+log/*.log.[0-9]
+img/
+!img/logo*.*
+
+# ignore all but ascii scene files, 
+# mel scripts and python scripts
+
+maya_git/assets/
+maya_git/autosave/
+maya_git/cache/
+maya_git/clips/
+maya_git/data/psd/
+maya_git/data/img/
+maya_git/images/
+maya_git/movies/
+
+# in some cases might want to track partcles
+# but not for this test
+
+maya_git/particles/
+maya_git/renderData/
+maya_git/sound/
+maya_git/sourceimages
+
+maya_git/workspace.mel
